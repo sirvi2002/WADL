@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Assignment-1</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="newstyle.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Sidebar</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+               
+                <li class="active">
+                    <a href="#homeSubmenu">Home</a>
+                    
+                </li>
+                <li>
+                    <a href="https://pict.edu/about_us/" target="_blank">About</a>
+                </li>
+                
+                <li>
+                    <a href="#menu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Academics</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li><a href="#">Computer Science</a></li>
+                        <li><a href="#">Information Technology</a></li>
+                        <li><a href="#">Electronics & Telecommunications</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://pict.edu/contact_us/" target="_blank">Contact Us</a>
+                </li>
+            </ul>
+
+           
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Toggle Sidebar</span>
+                    </button>
+                    
+
+                    <h2>My College Dashboard</h2>
+                </div>
+            </nav>
+
+            <!-- <h2>Collapsible Sidebar Using Bootstrap 4</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="line"></div>
+
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="line"></div>
+
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="line"></div>
+
+            <h3>Lorem Ipsum Dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+            
+            <div class="container">
+            <div class="row" id="row1">
+            <div class="card col-md-4 mx-5" style="width: 15rem;">
+                <div class="card-body">
+                  <h5 class="card-title text-center">NAAC</h5>
+                  <h6 class="card-subtitle mb-2 text-center">Accredition</h6>
+                  <p class="card-text text-center my-4 text-dark" style="font-weight: bolder;">"A" Grade</p>
+                  <a href="https://pict.edu/naac/" class="card-link text-center text-primary">NAAC Documents</a>
+                </div>
+              </div>
+              <div class="card col-md-4 mx-5  " style="width: 15rem;">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Placement</h5>
+                  
+                  <h6 class="card-subtitle mb-2 text-center my-4" style="font-weight: bold;">Highest Package : 30.5 LPA <br><br>  Average Package : 7.16 LPA</h6>
+                  <p class="card-text text-center"></p>
+                  <a href="https://pict.edu/placement/" class="card-link  text-primary" target="_blank">Placements</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row " id="row2">
+                <div class="card col-md-4 mx-5 my-4" style="width: 15rem;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Our Events</h5>
+                      <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                      <p class="text-center text-dark" style="font-weight: bold;">
+                              Credenz  <br>
+                              Pict MUN <br>
+                              Pulzion <br>
+                              & many more..
+                            
+                      </p>
+                      
+                     
+                    </div>
+                  </div>
+                  <div class="card col-md-4 mx-5 my-4 " style="width: 15rem;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Clubs</h5>
+                      <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                      <p class="card-text text-center text-dark" style="font-weight: bold;">
+                          PICT ACM, <br>
+                          IEEE, <br>
+                          PASC, <br>
+                          etc..
+                      </p>
+                      
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script> -->
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+git init
+git status
+git add .
+git commit -m "Some msg"
+git remote add keyword repolink
+git push keyword master
+
+
